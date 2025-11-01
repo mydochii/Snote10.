@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SNOTE Kamu</title>
+  <style>
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background: url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+    .overlay {
+      background: rgba(255, 255, 255, 0.85);
+      min-height: 100vh;
+      backdrop-filter: blur(6px);
+    }
+    header {
+      background: rgba(255, 145, 0, 0.9);
+      color: white;
+      padding: 14px 20px;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      border-bottom: 2px solid rgba(255,255,255,0.2);
+    }
+    .note {
+      background: rgba(255, 255, 255, 0.92);
+      margin: 25px auto;
+      max-width: 700px;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .note h3 {
+      margin-top: 0;
+      color: #2b2b2b;
+    }
+    .note p {
+      color: #333;
+      font-size: 16px;
+    }
+    a {
+      display: block;
+      color: #d35400;
+      margin: 6px 0;
+      text-decoration: none;
+      font-weight: 500;
+      word-break: break-all;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #a84300;
+    }
+    footer {
+      text-align: center;
+      color: #555;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>SNOTE.VIP</header>
+
+    <div class="note">
+      <h3>Note 02/11/2025</h3>
+      <p> Pemandangan Hari Ini — Hangat Mentari Menyapa Alam di Awal November</p>
+      <div id="daftar-link"></div>
+    </div>
+
+    <footer>© 2025 Snote Versi Kamu</footer>
+  </div>
+
+  <script>
+    const links = [
+      "https://lnk.ink/Vid33yyv1d.short.dowld1",
+      "https://lnk.ink/Vid33yyv1d.short.Pfld1",
+      "https://lnk.ink/Vid33yyv1d.short.Bcivl1",
+      "https://lnk.ink/Vid33yyv1d.short.Jllgq1",
+      "https://lnk.ink/Vid33yyv1d.short.Vysj1",
+      "https://lnk.ink/Vid33yyv1d.short.Pfne1",
+      "https://lnk.ink/Vid33yyv1d.short.Sgoe1",
+      "https://lnk.ink/Vid33yyv1d.short.Sprbe1",
+      "https://lnk.ink/Vid33yyv1d.short.vpen1",
+      "https://lnk.ink/Vid33yyv1d.short.psrld1",
+      "https://lnk.ink/Vid33yyv1d.short.gy.BVos1",
+      "https://lnk.ink/Vid33yyv1d.short.gy.Qpdn1",
+      "https://lnk.ink/Vid33yyv1d.short.gy.Qpd1",
+      "https://lnk.ink/Vid33yyv1d.short.gy.Bxiw1"
+    ];
+
+    const daftar = document.getElementById("daftar-link");
+    links.forEach(link => {
+      const a = document.createElement("a");
+      a.href = link;
+      a.textContent = link;
+      daftar.appendChild(a);
+    });
+  </script>
+</body>
+</html>
